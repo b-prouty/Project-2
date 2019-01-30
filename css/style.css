@@ -3,5 +3,28 @@
 }
 
 .wrap {
-  min-height: clac(100vh - 89px); /* --- 89px is a placeholder for however high your footer is --- */ 
+  min-height: clac(100vh - 89px); /* --- 89px is a placeholder for however high your footer is --- */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 789px) {
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+
+
 }
