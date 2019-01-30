@@ -11,11 +11,22 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+}
+h3 {
+  color: #666;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-top: 20px;
+}
 .main-header {
   background-color: #f5f5f5;
-}
-.wrap {
-  min-width: 100%;
 }
 
 .container {
@@ -28,6 +39,7 @@ a {
   text-align: center;
   margin: 0;
   padding: 30px;
+  color: #666;
 }
 
 .main-nav {
@@ -44,16 +56,42 @@ a {
   margin-top: 10px;
   padding: 10px;
   width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .main-nav a {
   text-decoration: none;
-  color: darkgrey;
+  color: #666;
   min-width: 100%;
 }
 
-#portfolio {
-  width: 90%;
+.header-text {
+  color: #a3a3a3;
+  text-align: center;
+  line-height: 25px;
+  padding: 20px 0;
+}
+
+.header-img {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.col {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: #a6a6a6;
+  padding: 30px 0;
+}
+
+.col img{
+  width: 100%;
+}
+
+#portfolio img {
+
 }
 
 .clearfix::after {
