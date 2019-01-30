@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  min-height: clac(100vh - 89px); /* --- 89px is a placeholder for however high your footer is --- */ 
+}
