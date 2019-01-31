@@ -146,6 +146,10 @@ footer {
 ==================================== */
 
 @media (min-width: 789px) {
+header {
+  text-align: center;
+}
+
 .main-nav {
   display: inline-block;
 }
