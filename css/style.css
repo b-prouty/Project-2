@@ -184,11 +184,48 @@ header {
   padding-top: 35px;
 }
 
+.backtotop {
+  display: none;
+}
+
+.footer-nav {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
+.footer-nav li {
+  display: inline-block;
+  padding-right: 15px;
+}
 }
 
 
 @media (min-width: 1024px) {
+header {
+  text-align: left;
+}
 
+.main-nav {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+}
+.main-nav li {
+  float: left;
+}
 
+.name {
+  float: left;
+  padding-left: 0px;
+}
+.header-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.col {
+  width: 33%;
+  float: left;
+  padding: 10px 10px 50px 10px;
+}
 
 }
