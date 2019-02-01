@@ -90,6 +90,10 @@ h3 {
   text-align: center;
 }
 
+.header-img img{
+  max-width: 300px;
+}
+
 .col {
   width: 100%;
   margin: 0;
@@ -150,7 +154,7 @@ footer {
   Media Queries
 ==================================== */
 
-@media (min-width: 789px) {
+@media (min-width: 768px) {
 header {
   text-align: center;
 }
@@ -179,6 +183,7 @@ header {
   float: right;
   width: 40%;
   padding-bottom: 50px;
+  max-width: none;
 }
 
 .header-text {
